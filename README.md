@@ -32,9 +32,9 @@ Steps to Convert Python Script to EXE:
    pip install pyinstaller
 
 2. Convert Python Script to EXE:
-   Navigate to the folder where your Python file (e.g., voice.py) is located.
+   Navigate to the folder where your Python file (e.g., logger.py) is located.
    Run this command:
-   pyinstaller --onefile --noconsole voice.py
+   pyinstaller --onefile --noconsole logger.py
 
 3. Find your EXE:
    After the command runs, go to the "dist" folder in your project directory.
