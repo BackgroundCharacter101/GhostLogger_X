@@ -24,5 +24,21 @@ GhostLogger X is a stealth surveillance utility designed for educational and eth
    The ZIP file is locked with a password (backgroundcharacter101) ensuring data confidentiality even during transit or storage.
 
 GhostLogger X is a ghost. You won’t know it was ever there.
+
+Steps to Convert Python Script to EXE:
+---------------
+1. Install PyInstaller:
+   Run the following command in your terminal or command prompt:
+   pip install pyinstaller
+
+2. Convert Python Script to EXE:
+   Navigate to the folder where your Python file (e.g., voice.py) is located.
+   Run this command:
+   pyinstaller --onefile --noconsole voice.py
+
+3. Find your EXE:
+   After the command runs, go to the "dist" folder in your project directory.
+   You'll find your EXE file there.
+   
 Project Credits:  
 - Created by BackgroundCharacter101.
